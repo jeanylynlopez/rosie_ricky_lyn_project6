@@ -48,7 +48,7 @@ class App extends Component {
 
     axios.get("https://opentdb.com/api.php?", {
       params: {
-        amount: 50,
+        amount: 10,
         category: category,
         difficulty: difficulty,
         // type: "multiple"
